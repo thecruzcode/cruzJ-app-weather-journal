@@ -10,7 +10,7 @@
 
   const zipElem = document.getElementById('zip_area');
   const feelingsElem = document.getElementById('enter_feelings');
-  const generateButton = document.getElementById('generate_entry');
+  const generateButton = document.getElementById('generate');
 
   const dateElem = document.getElementById('date');
   const tempElem = document.getElementById('temp');
