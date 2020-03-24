@@ -48,16 +48,24 @@ body {
   height: 95vh;
 }
 
-#feelingEntryHolder {
-}
+/* #feelingEntryHolder {
+} */
 
 #date {
+  padding: 5px;
+  color: lightyellow;
+  font-family: 'Playfair Display', serif;
 }
 
 #temp {
+  color: lightyellow;
+  font-family: 'Playfair Display', serif;
 }
 
 #entryContent {
+  padding: 7px;
+  color: lavender;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .headline {
@@ -68,6 +76,7 @@ body {
 
 .most_recent_entry_title {
   color: yellow;
+  font-family: 'Playfair Display', serif;
 }
 
 /* To override the Default for Basic HTML elements add these styles */
