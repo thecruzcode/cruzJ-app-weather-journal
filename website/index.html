@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Weather App</title>
+
+    <script
+      src="https://kit.fontawesome.com/f78c2c84be.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Liu+Jian+Mao+Cao&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app_container">
+      <header id="header_app">
+        <h1 class="headline">MY Weather Journal APP</h1>
+      </header>
+      <div class="holder zip_code">
+        <label for="zip">Type Your Zip Code?</label>
+        <input type="text" id="zip_area" placeholder="Enter zip code here" />
+      </div>
+      <div class="holder feelings">
+        <label for="feelings">Express How You Feel Today</label>
+        <textarea
+          name="users-feelings"
+          id="enter_feelings"
+          maxlength="300"
+          placeholder="Enter How You're Feeling"
+          cols="50"
+          rows="9"
+        ></textarea>
+        <button id="generate_entry" type="submit">Generate</button>
+      </div>
+      <div class="holder entry">
+        <div class="recent_entry_title">
+          <h2 class="most_recent_entry_title">Most Recent Entry</h2>
+        </div>
+        <div id="feelingEntryHolder">
+          <div id="date"></div>
+          <div id="temp"></div>
+          <div id="entryContent"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js" type="text/javascript"></script>
+  </body>
+</html>
