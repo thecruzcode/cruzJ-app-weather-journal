@@ -8,8 +8,8 @@
     day: 'numeric'
   });
 
-  const zipElem = document.getElementById('zip_area');
-  const feelingsElem = document.getElementById('enter_feelings');
+  const zipElem = document.getElementById('zip');
+  const feelingsElem = document.getElementById('feelings');
   const generateButton = document.getElementById('generate');
 
   const dateElem = document.getElementById('date');
